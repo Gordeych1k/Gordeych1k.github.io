@@ -1,5 +1,6 @@
 $primary:rgb(0, 174, 255);
 $secondary:rgb(123, 0, 255);
+$bg-color : rgba(0, 0, 0, 0.689);
 
 body{
     font-family: "Titan One", sans-serif;
@@ -7,5 +8,11 @@ body{
 
 
 header{
-    
+    background-color: $bg-color;
+    position : fixed;
+    width : 100%;
+    box-shadow : 0px 0px 10px 6px $secondary;
+    .navbar{
+        background-color : $bg-color !important;
+    }
 }

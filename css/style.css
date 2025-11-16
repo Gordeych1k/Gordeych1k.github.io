@@ -1,3 +1,13 @@
 body {
   font-family: "Titan One", sans-serif;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.689);
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 0px 10px 6px rgb(123, 0, 255);
+}
+header .navbar {
+  background-color: rgba(0, 0, 0, 0.689) !important;
 }/*# sourceMappingURL=style.css.map */
