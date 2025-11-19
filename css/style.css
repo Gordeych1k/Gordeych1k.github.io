@@ -1,5 +1,6 @@
 body {
   font-family: "Titan One", sans-serif;
+  background-color: rgba(0, 0, 0, 0.689);
 }
 
 header {
@@ -7,7 +8,16 @@ header {
   position: fixed;
   width: 100%;
   box-shadow: 0px 0px 10px 6px rgb(123, 0, 255);
+  top: 0;
 }
 header .navbar {
-  background-color: rgba(0, 0, 0, 0.689) !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+main {
+  margin-top: 60px;
+}
+main .hero {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
