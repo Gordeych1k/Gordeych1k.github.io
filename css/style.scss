@@ -1,9 +1,10 @@
 $primary:rgb(0, 174, 255);
 $secondary:rgb(123, 0, 255);
-$bg-color : rgb(58, 58, 58);
+$bg-color : #121212;
 
 body{
     font-family: "Titan One", sans-serif;
+    color: white;
     background-color: $bg-color;
 }
 
@@ -16,20 +17,42 @@ header{
     top : 0;
     .navbar{
         background-color : rgba(0, 0, 0, 0) !important;
+        .navbar-brand{
+            color: white !important;
+        }
+        .nav-link {
+            color: white !important;
+        }
+            
     }
 }
 
 main{
     margin-top: 70px;
+
+    section>h1{
+        text-align: center;
+    }
+
     .hero{
         display: flex;
         justify-content : space-between;
+        align-items: center;
         .left{
             .hello{
                 font-size : 2em;
             }
             .quote{
                 font-size: 2em;
+            }
+            .social{
+                a{
+                    margin-right : 10px;
+                    i{
+                        color: $secondary;
+                        font-size : 2em;
+                    }
+                }
             }
         }
     }
