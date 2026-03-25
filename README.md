@@ -1,16 +1,25 @@
-## Hi there 👋
+- site (flask, django), php(laravel) + ai
+- tkinter + customtkinter (qt)
+- bot
+- parsing
+- game (godot)
+- ai 
 
-<!--
-**Gordeych1k/Gordeych1k** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+# bot + parsing
+aiogram
+requests + beautifulsoup4(bs4)
+telebot + ai = 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# файли - архітектура
+
+.env - для зберігання конфіденційних даних (токени, паролі)
+parsing.py - для парсингу даних з сайтів
+main.py - основний файл для запуску бота
+
+# логіка бота
+1. витягнути час оновлення з сайту
+2. перевірити чи є нові дані, чи час змінився(зберігати в json), зберегти новий час
+3. зайди на сайт і витянути дані з таблиці (парсинг)
+4. відправити дані користувачу через телеграм бота
+5. повторити процес через певний інтервал часу (наприклад, кожні 10 хвилин)
