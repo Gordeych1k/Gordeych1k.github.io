@@ -16,3 +16,13 @@ main.py - основний файл для запуску бота
 5. повторити через певний час (наприклад, кожні 30 хвилин)
 
 
+pip install python-dotenv
+
+```
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # завантажує змінні з .env у os.environ
+
+bot_token = os.getenv("BOT_TOKEN")
+```
